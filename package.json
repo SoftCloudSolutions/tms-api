@@ -1,0 +1,26 @@
+{
+  "name": "tms-api",
+  "version": "1.0.0",
+  "description": "Tool Management System - API",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "ENV=dev node ./node_modules/nodemon/bin/nodemon.js ./src/server.js",
+    "start": "ENV=production node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftCloudSolutions/tms-api.git"
+  },
+  "author": "SoftCloudSolutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftCloudSolutions/tms-api/issues"
+  },
+  "homepage": "https://github.com/SoftCloudSolutions/tms-api#readme"
+}
