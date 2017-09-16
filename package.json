@@ -1,7 +1,7 @@
 {
   "name": "tms-api",
   "version": "1.0.0",
-  "description": "Tool Management System - API",
+  "description": "Tool Management System V1 - API",
   "main": "index.js",
   "dependencies": {
     "express": "^4.15.4",
